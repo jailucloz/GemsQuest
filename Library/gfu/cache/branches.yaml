@@ -13,21 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-06T11:07:16.512+02:00
-  initializedAtString: 2020-07-06T11:05:30.220+02:00
+  lastUpdatedAtString: 2020-07-06T13:26:56.717+02:00
+  initializedAtString: 2020-07-06T13:26:56.592+02:00
   localBranches:
-  - name: inventario
-    tracking: origin/inventario
+  - name: master
+    tracking: origin/master
   remoteBranches:
-  - name: origin/conversaciones
-    tracking: '[None]'
-  - name: origin/develop
-    tracking: '[None]'
-  - name: origin/inventario
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/GuillermoDP14/jrpg.git
+    url: https://github.com/jailucloz/GemsQuest.git
     login: 
     user: 
     host: 
@@ -35,41 +31,29 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - inventario
+    - master
     values:
-    - name: inventario
+    - name: master
       remote:
         name: origin
-        url: https://github.com/GuillermoDP14/jrpg.git
-      trackingBranch: inventario
+        url: https://github.com/jailucloz/GemsQuest.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - conversaciones
-      - develop
-      - inventario
+      - master
     subKeyValues:
     - Values:
-      - name: conversaciones
+      - name: master
         remote:
           name: origin
-          url: https://github.com/GuillermoDP14/jrpg.git
-        trackingBranch: 
-      - name: develop
-        remote:
-          name: origin
-          url: https://github.com/GuillermoDP14/jrpg.git
-        trackingBranch: 
-      - name: inventario
-        remote:
-          name: origin
-          url: https://github.com/GuillermoDP14/jrpg.git
+          url: https://github.com/jailucloz/GemsQuest.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/GuillermoDP14/jrpg.git
+      url: https://github.com/jailucloz/GemsQuest.git
